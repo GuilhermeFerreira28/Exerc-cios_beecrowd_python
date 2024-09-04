@@ -1,0 +1,11 @@
+'''
+Escreva um programa que calcule o faturamento de um representante comer-cial que recebe R$ 500,00 fixos e 6% de comissão sobre as vendas do mês. 
+Considere que ele fechou o mês com um valor de R$ 12.398,00 em vendas. Exiba o resultado com duas casas decimais.
+
+'''
+
+Vlfixo = 500
+vendas = float(input("Digite o valor total de vendas: "))
+comiss = 6/100
+fat = Vlfixo + vendas * comiss
+print("O faturamento do mês é: {0:.2f}".format(fat))
