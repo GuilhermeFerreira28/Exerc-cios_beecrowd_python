@@ -1,0 +1,12 @@
+'''
+
+'''
+
+a = int(input("Digite o primeiro valor: "))
+b= int(input("Digite o segundo valor: "))
+
+if b == 0:
+    print("Não é possível calcular a divisão")
+else:
+    r = a / b
+    print("Resuldado: R = %1.f" %r)
