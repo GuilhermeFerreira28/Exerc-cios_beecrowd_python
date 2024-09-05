@@ -1,0 +1,11 @@
+'''
+Para exemplificar a implementação de um laço, tem-se o código a seguir,
+no qual se quer exibir na tela todos os números inteiros entre 1 e 10, sendo um valor em cada linha.
+
+'''
+print("Inicio do programa")
+cont = 1 
+while cont <= 10:
+    print(cont)
+    cont = cont + 1
+print("Fim do programa")
