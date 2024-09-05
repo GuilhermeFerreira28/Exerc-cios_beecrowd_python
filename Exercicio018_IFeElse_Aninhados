@@ -1,0 +1,22 @@
+'''
+'''
+
+a = int(input("Digite o valor de A: "))
+b = int(input("Digite o valor de B: "))
+c = int(input("Digite o valor de C: "))
+
+if a <= b and a <= c: 
+    if b <= c:
+        print("Ordem crescente: {}, {}, {}".format(a, b, c))
+    else:
+         print("Ordem crescente: {}, {}, {}".format(a, c, b))
+elif b <= a and b <=c:
+        if a <=c:
+            print("Ordem crescente: {}, {}, {}".format(b, a, c))
+        else:
+            print("Ordem crescente: {}, {}, {}".format(b, c, a)) 
+else:
+        if a<=b:
+             print("Ordem crescente: {}, {}, {}".format(c, a, b))
+        else:
+             print("Ordem crescente: {}, {}, {}".format(c, b, a))
