@@ -1,0 +1,16 @@
+'''
+Um programa que permaneça em laço enquanto um valor X lido for diferente de zero.
+ Totalize (some todos) e conte os valores digitados, exceto o zero, e apresente esses valores na tela. 
+'''
+
+soma = 0 
+qtda = 0
+x = 1
+while x != 0:
+    x = int(input("Digite X: ")) # Evita que o zero seja contado
+    if x != 0:
+        soma = soma + x  # adiciona o x na variavel
+        qtda = qtda + 1 # soma 1 na quantidade
+
+print("Total dos valores digitados = %d" % soma)
+print("Quantidade de valores = %d" % qtda)
