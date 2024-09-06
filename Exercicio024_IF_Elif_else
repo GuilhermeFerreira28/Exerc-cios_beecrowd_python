@@ -1,0 +1,9 @@
+
+idade = int(input("Digite a idade: "))
+
+if(idade >18 and idade <25):
+    print("A idade digitada é maior que 18")
+elif (idade >= 25 and idade <= 50):
+    print("A idade está entre 25 e 50 anos")
+else:
+    print("A idade digitada é invalida")
