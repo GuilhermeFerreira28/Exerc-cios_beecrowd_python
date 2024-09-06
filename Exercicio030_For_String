@@ -1,0 +1,3 @@
+minha_string = "Ciência de Dados"
+for c in minha_string:
+    print(c)
