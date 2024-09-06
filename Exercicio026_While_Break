@@ -1,0 +1,12 @@
+
+count = 0
+
+while (count<10):
+    print(count)
+    
+    if(count == 5):
+        print("Chegou no valor 5")
+        break;
+    
+    count = count + 1
+print("Termino do Laço")
