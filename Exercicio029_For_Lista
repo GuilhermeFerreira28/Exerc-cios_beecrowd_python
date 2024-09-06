@@ -1,0 +1,3 @@
+produtos = ["notebook", "mesa", "smartphone"]
+for p in produtos:
+    print("Produto: " + p)
