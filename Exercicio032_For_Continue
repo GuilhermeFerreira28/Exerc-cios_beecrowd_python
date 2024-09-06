@@ -1,6 +1,7 @@
 
+
 paises = ["Brasil", "Argentina", "Colombia"]
 for p in paises:
-	print(p)
 	if(p == "Brasil"):
-		break;
+		continue
+	print(p)
