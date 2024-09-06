@@ -2,3 +2,7 @@ for i in range(10):
     print(i)
 else:
     print("Laço concluído")
+
+#Estrutura vazia pode ser feita assim
+for i in range(10):
+    pass
