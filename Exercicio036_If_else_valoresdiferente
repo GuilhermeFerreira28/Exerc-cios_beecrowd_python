@@ -1,0 +1,13 @@
+'''
+Receba dois valores inteiros A e B, e verifique se eles são iguais. Se forem iguais, imprima a mensagem "O valor <valor A> é igual a <valor B>". 
+Senão, mostre "O valor <valor A> é diferente de <valor B>".
+'''
+a=0
+b=0
+a = int(input())
+b = int(input())
+
+if a == b:
+    print(f"O valor de {a} é igual a {b}")
+else:
+    print(f"O valor {a} é diferente de {b}")
