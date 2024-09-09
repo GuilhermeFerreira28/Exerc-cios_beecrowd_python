@@ -1,0 +1,6 @@
+
+cor = "amarelo"
+if cor == "amarelo":
+    print("Amarelo")
+else:
+    print("Não é amarelo")
