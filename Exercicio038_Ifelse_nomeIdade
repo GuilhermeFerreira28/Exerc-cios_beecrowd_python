@@ -1,0 +1,12 @@
+'''
+Implemente um programa que receba via teclado o nome e a idade do usuário. Se a idade do usuário for maior ou igual a 18, exiba a mensagem "<Nome> é adulto".
+ Senão, exiba "<Nome> não é adulto".
+'''
+
+nome = input()
+idade = int(input())
+
+if(idade >= 18):
+    print(f"{nome} é adulto")
+else:
+    print(f"{nome} não é adulto")
