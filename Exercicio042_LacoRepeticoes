@@ -1,0 +1,8 @@
+
+'''
+Qual das alternativas executa um laço de repetição de 50 iterações utilizando a instrução for?
+'''
+
+for i in range (0,50,1):
+    print(i)
+
