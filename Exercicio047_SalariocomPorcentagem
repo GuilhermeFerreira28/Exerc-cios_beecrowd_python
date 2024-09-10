@@ -1,0 +1,60 @@
+
+'''
+0 - 400.00                   15%
+400.01 - 800.00              12%
+800.01 - 1200.00             10%
+1200.01 - 2000.00            7%
+Acima de 2000.00             4%
+
+A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
+Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos devem ser apresentados com 2 casas decimais) 
+e o percentual de reajuste ganho, conforme exemplo abaixo.
+
+'''
+
+salario = float(input())
+novoSalario = 0
+valorPercentual = 0
+reajuste = 0
+
+if(salario >= 0 and salario <= 400):
+    reajuste = (salario * 0.15) 
+    novoSalario = reajuste + salario
+    valorPercentual = 0.15 * 100
+    print(f"Novo salario: {novoSalario:.2f}")
+    print(f"Reajuste ganho: {reajuste:.2f}")
+    print(f"Em percentual: {valorPercentual:.0f} %")
+
+elif(salario >= 400.01 and salario <=800):
+    reajuste = (salario * 0.12) 
+    novoSalario = reajuste + salario
+    valorPercentual = 0.12 * 100
+    print(f"Novo salario: {novoSalario:.2f}")
+    print(f"Reajuste ganho: {reajuste:.2f}")
+    print(f"Em percentual: {valorPercentual:.0f} %")
+
+elif(salario >=0 and salario <=1200):
+    reajuste = (salario * 0.10) 
+    novoSalario = reajuste + salario
+    valorPercentual = 0.10 * 100
+    print(f"Novo salario: {novoSalario:.2f}")
+    print(f"Reajuste ganho: {reajuste:.2f}")
+    print(f"Em percentual: {valorPercentual:.0f} %")
+
+elif(salario >=1200.01 and salario <= 2000):
+    reajuste = (salario * 0.07) 
+    novoSalario = reajuste + salario
+    valorPercentual = 0.07 * 100
+    print(f"Novo salario: {novoSalario:.2f}")
+    print(f"Reajuste ganho: {reajuste:.2f}")
+    print(f"Em percentual: {valorPercentual:.0f} %")
+
+else:
+    if (salario > 2000):
+        reajuste = (salario * 0.04) 
+        novoSalario = reajuste + salario
+        valorPercentual = 0.04 * 100
+        print(f"Novo salario: {novoSalario:.2f}")
+        print(f"Reajuste ganho: {reajuste:.2f}")
+        print(f"Em percentual: {valorPercentual:.0f} %")
+   
